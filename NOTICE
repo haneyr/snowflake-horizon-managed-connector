@@ -1,0 +1,12 @@
+This project is based on the Snowflake Connector for Google Cloud Dataplex,
+originally developed by Google LLC as part of the cloud-dataplex project:
+https://github.com/GoogleCloudPlatform/cloud-dataplex/tree/main/managed-connectivity/community-contributed-connectors/snowflake-connector
+
+Original work Copyright 2024 Google LLC, licensed under Apache License 2.0.
+
+Modifications include:
+- Horizon governance metadata extraction (tags, tag references)
+- INFORMATION_SCHEMA.TAG_REFERENCES for real-time tag data
+- Data type mapping with fallbacks for semi-structured types
+- Cloud Workflows pipeline definition with error handling
+- Secret Manager credential integration
